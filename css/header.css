@@ -1,0 +1,27 @@
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header__logo__img {
+  width: 25%;
+  height: 25%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header__logo__text {
+  position: relative;
+  left: 5%;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 30px;
+}
